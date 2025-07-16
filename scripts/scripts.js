@@ -108,8 +108,6 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
-  
-    import('../tools/sidekick/aem-genai-variations.js');
 }
 
 /**
